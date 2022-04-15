@@ -1,0 +1,44 @@
+
+input,textarea{
+    display:block;
+    width:100%;
+    margin:10px 0;
+}
+
+.container{
+    width:40%;
+    margin:auto;
+}
+.add-course{
+    width: 80%;
+     margin: auto;
+    margin-top:40px;
+    box-shadow:5px 5px 21px  #dcdcdc;
+    text-align: center;
+}
+button{
+    background-color: #ffffff;
+    border: 1px solid black;
+    color: #a2a2a2;
+    width: 93px;
+    margin-bottom: 10px;
+    height: 30px;
+    transition:1px;
+}
+button:hover{
+    background-color:#575757;
+    color:white;
+}
+
+th,td{
+    width:200px
+}
+i{
+color:lightcoral;
+font-size: large;
+text-align: center;
+}
+.error{
+    background-color:#f8d7da;
+    display: none;
+}
